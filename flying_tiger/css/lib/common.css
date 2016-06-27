@@ -1,0 +1,92 @@
+html,body,ul,ol,li,p,img,dl,dt,dd,form,fieldset,table{margin: 0;padding: 0;}
+html,body{width: 100%;height: 100%;}
+body{font-family: "微软雅黑";}
+a{text-decoration: none;}
+img{border: 0;display: block;}
+ul,ol{list-style: none;}
+.clear{clear: both;}
+.fl{float: left;display:inline}
+.fr{float: right;display:inline}
+em,i{font-style:normal;}
+b,strong{font-weight:100;}
+input,button{outline: none;vertical-align: middle;}
+button{cursor: pointer;}
+table{border-spacing: 0;}
+/*=========================================header_nav================================================*/
+.header_nav{height: 28px;font-size:12px;line-height:28px;background: #f0f0f0;border-bottom: 1px solid #ccc;border-top: 1px solid #ccc;}
+	.header_nav_box{width:1200px;margin: 0 auto;}
+	.header_nav_box a:hover{color: brown;}
+	.header_nav_left{width:360px;}
+		.header_nav_left a{color: #0066FF}
+	.header_nav_right{width: 350px;}
+		.header_nav_right a{color:#333}
+		.my_count{width:70px;margin-right: 8px;position: relative;padding-left: 10px;border: 1px solid #f0f0f0;border-bottom: 0;border-top: 0}
+		.my_count:hover{background: #fff;border: 1px solid #ccc;border-bottom: 1px solid #fff;border-top: 0}
+		.my_count:hover ul{display: block;}
+		.my_count:hover span{display: none;}
+			.my_count ul{width: 80px;height:71px;border:1px solid #ccc;border-top: 0;background: #fff;position: absolute;left: -1px;top:28px;display: none;z-index: 10;}
+			.my_count li{height:24px;line-height: 20px;text-indent: 10px;}
+			.header_nav_right b{width: 8px;height:5px;position: absolute;right: 10px;top:11px;background: url(../img/headernav_bg.png) no-repeat;}
+			.header_nav_right span{width:2px;height: 10px;position: absolute;right: -1px;top:9px;background: url(../img/headernav_bg.png) no-repeat -10px 0;}
+		.help{width:70px;padding-left: 10px;position: relative;border: 1px solid #f0f0f0;border-bottom: 0;border-top: 0}	
+		.help:hover{background: #fff;border: 1px solid #ccc;border-bottom: 0;border-top: 0}
+		.help:hover ul{display: block;}
+		.help:hover span{display: none;}
+			.help ul{width: 80px;height:71px;border:1px solid #ccc;border-top: 0;background: #fff;position: absolute;left: -1px;top:28px;display: none;z-index: 10}
+			.help li{height:24px;line-height: 20px;text-indent: 10px;}
+		.collection{width:60px;margin:0 5px;position: relative;}	
+			.collection a{margin-left: 3px}
+		.tel{width:80px;padding-left: 15px;position: relative;color: #666;font-weight: 600;font-size: 12px;}
+		.tel em{background: url(../img/headernav_bg.png) no-repeat -20px;height: 10px;width: 12px;position: absolute;left:0;top:9px}
+	
+/*===================================header=======================================*/
+.header{width: 1200px;height:118px;margin: 0 auto;padding-top: 22px;}
+		.search_box input{border: 1px solid #c7012c;width:344px;height:26px;text-indent: 12px;}
+		.search_box button{width: 80px;height:30px;background: #C7012C;color:#fff;border: 0;}
+	.header_bot{height: 40px;margin-top: 10px;}
+		.header_bot a{color:#fff;font-size: 16px;}
+		.all_goods{width:185px;height: 40px;line-height:40px;padding-left: 25px;background: url(../img/buy_car.png) no-repeat;position: relative;}
+			.all_goods span{width:16px;height: 16px;background: url(../img/menu_bg1.png) no-repeat;position: absolute;left:165px;top:12px}
+		.lucky_draw{width:120px;height:40px;background:  #C7012C;text-align: center;position: relative;}
+			.lucky_draw a{width: 120px;height:47px;background: url(../img/menu_bg2.PNG) no-repeat;position: absolute;left:0;top: -5px;font-weight: bold;color:#feff00;line-height: 46px;}
+		.ul_box{width: 650px;height: 40px;background: #C7012C;}
+			.ul_box li{height:18px;border-left: 1px #fff solid;margin-top: 11px;line-height: 16px;}
+			.ul_box li:hover a{color:#fdba23}
+			.ul_box a{padding: 0 11px;}
+			.new_goods,.hot_goods{position: relative;}
+			.new_goods span{width:20px;height:20px;background:url(../img/new.gif) no-repeat;position: absolute;left:66px;top:-20px;}
+			.hot_goods span{width:20px;height:20px;background:url(../img/hot.gif) no-repeat;position: absolute;left:66px;top:-20px;}
+		.buy_car{width:220px;height:40px;background: url(../img/buy_car.png) no-repeat -10px -40px;}
+			.car_logo{text-indent: 45px;margin-top: 8px;width: 215px;height:25px;background: url(../img/buy_car.png) no-repeat 0 -81px;}
+			.car_logo a{font-size: 12px;color: #333;line-height: 26px;}
+			.car_logo b{font-weight: bold;color: red;padding: 0 5px}
+			.car_logo em{margin-left: 40px;color: #fff}			
+/*=========================================footer================================================*/			
+.footer{width:980px;height: 237px;margin: 0 auto;overflow: hidden;}
+	.footer_top{margin-bottom: 20px;height:47px;}
+	.footer_bot{width:980;height:170px;overflow: hidden;}
+		.service{margin-top:20px;width:250px;height:108px;margin-right: 25px;}
+		.service_tel{margin-left: 35px;line-height: 24px;}
+			.service_tel span{font-size: 13px;color:#999;}
+			.service_time{margin-top:6px;font-size: 13px;color:#999}
+				.icon{width: 52px;height:50px;background: url(../img/footer2.png) no-repeat 0 -47px;margin: 3px 8px 0 35px;}
+				.service_time span{color:#ff6a67}
+				.service_time p{margin-top: 8px;}
+				.weekday{margin-left: 20px;}
+		.service_guide dl{width:125px;height:150px;padding-left:14px;border-left:1px solid #ccc;float: left;}	
+		.service_guide dt{font-size:14px;margin-bottom:6px;}
+		.service_guide dd{font-size: 13px;margin-top: 3px;font-size: 12px;margin-bottom: 5px;}
+		.service_guide a{color: #999}
+		.service_guide dd a:hover{color: #0000FF;text-decoration: underline;}
+/*=========================================copy_right================================================*/
+.copy_right{width:980px;height: 76px;margin: 0 auto;overflow: hidden;padding-bottom:20px}
+	.copy_right li{float:left;display: inline;padding-right: 10px;font-size: 12px;}
+	.copy_right li a{color:#333}
+	.copy_right span{margin-left: 10px;}
+	.copy_right ul{margin-bottom:6px;}
+	.copy_right p{color:#999;font-size: 12px;margin-bottom:4px;}
+	.copy_right a{color:#999}
+	.copy_right .hover:hover{color: #000fff;text-decoration: underline;}
+
+
+#shoppingCar .copy_right{width:1200px;}

@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>全部商品分类</title>		
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/goodList.css "/>
+		<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+		<script type="text/javascript" src="../js/lib/jquery.cookie.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript" src="../js/goodList.js"></script>
+	</head>
+
+	<body>
+		<div id="All">
+			<!--头部-->
+			<div class="topNav">
+				<div class="topNavCenter">
+					<div class="topNavCenter_left">
+						<div class="noUser_left">
+							你好,欢迎来到飞虎乐购!<a href="../html/signOut.html">安全登录</a>还没加入我们？ <a href="../html/signIn.html">立即注册</a>
+						</div>
+						<div class="usernew_left">
+							亲爱的 <a class="theUser" href=""></a>您好！[<a href="" class="tuichu">退出</a>]
+						</div>
+					</div>
+					<ul class="topNavCenter_right">
+						<li class="menu account">
+							<div class="menu_menu">
+								<a href="" class="My_account">我的账户<b></b><span></span></a>
+								<ul class="My_account_ul">
+									<li><a href="" id="">账户首页</a></li>
+									<li><a href="" id="">我的收藏</a></li>
+									<li class="last"><a href="" id="">我的订单</a></li>
+								</ul>
+							</div>
+
+						</li>
+						<li class="menu account accountteshu">
+							<div class="menu_menu">
+								<a href="" class="My_account">网站导航<b></b><span></span></a>
+								<ul class="My_account_ul">
+									<li><a href="" id="">帮助中心</a></li>
+									<li><a href="" id="">联系客服</a></li>
+									<li class="last"><a href="" id="">常见问题</a></li>
+								</ul>
+							</div>
+						</li>
+						
+						
+						<li class="menu account">
+							<a href="" class="My_account  shouchang">加入收藏<b></b><span></span></a>
+						</li>
+						<li class="menu tel">
+							400 883 6900<b></b>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--顶部nav下搜索栏-->
+			<div class="topSearch">
+				<div class="search">
+					<a href="homePage.html" class="searchL"></a>
+					<div class="sthSearch">						
+						<input type="text" name="text" class="tet" id="tex" value="" />
+						<input type="button" name="btn" class="btn" value="搜索"/>
+					</div>
+					<a href="" class="searchR"></a>
+				</div>
+				<div class="nav">
+					<div class="allGoods nothomePage">
+						<a href="goodList.html"><em>全部商品分类</em><b></b></a>
+						<div class="allGoods_menu">
+<!-----------------------------------二三级菜单-------------------------------------------------->	
+							<!--<div class="menu_box">-->
+								<ul class="menu_23dao">
+									<div><li>·&nbsp;<a href="goodDetail.html">服装鞋帽</a></li><span class="third_menu dingweiA"><b class="close_menu">X</b></span></div>
+									<div><li>·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu dingweiB"><b class="close_menu">X</b></span></div>
+									<div><li>·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu dingweiC"><b class="close_menu">X</b></span></div>
+									<div><li>·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu"><b class="close_menu">X</b></span></div>
+									<div><li>·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu"><b class="close_menu">X</b></span></div>
+									<div><li>·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu"><b class="close_menu">X</b></span></div>
+									<div><li>·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu"><b class="close_menu">X</b></span></div>
+									<div><li>·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu"><b class="close_menu">X</b></span></div>
+									<div><li>·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu"><b class="close_menu">X</b></span></div>
+									<div><li>·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu dingweiD"><b class="close_menu">X</b></span></div>
+									<div><li>·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu dingweiE"><b class="close_menu">X</b></span></div>
+									<div><li class="li_last">·&nbsp;<a href="">服装鞋帽</a></li><span class="third_menu dingweiF"><b class="close_menu">X</b></span></div>									
+								</ul>
+							<!--</div>-->
+<!-----------------------------------二三级菜单-------------------------------------------------->	
+						</div>
+					</div>
+					<div class="mainNav">
+						<a href="" class="mochai">臻鼎摸彩</a>
+						<a href="homePage.html">首页</a>
+						<a href="">奶粉专区<span class="newGoods"></span></a>
+						<a href="">飞虎团购<span class="hotGoods"></span></a>
+					</div>
+					<ul class="shopping">
+						<li class="car"><a href="shopCar.html">购物车（<em class="car_num">0</em>）<b></b></a>
+							<div class="paycar">									
+								<div class="appenddl">
+								</div>
+								<p class="nogoods">共有<em class="car_num" style="color: #0000FF;">0</em>件商品,总价 ￥<b class="shoppingZJ">0</b></p>
+							</div>
+						</li>
+						<li class="pay"><a href="">去结算</a></li>
+						
+						
+					</ul>	
+				</div>
+			</div>
+			
+			<div class="chioce_box">
+				<div class="chioce_left fl" id="chioce_left">全部商品分类</div>
+				<div class="chioce_right fl" id="chioce_right">全部品牌</div>
+			</div>
+		
+			<div class="first_box" id="first_box">
+				<div class="main_zoom">
+				<div>
+					<p>更多特价商品，请进入以下二级频道页面</p>
+					<a href="homePage.html">综合专区</a>
+				</div>
+				</div>
+				<div class="org">
+				<img src="../img/goodList/detail_other.png"  />
+				<div class="sorts_box">
+					<dl class="sorts">
+						<dt>服装鞋帽</dt>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a></dd>
+					</dl>
+					<dl class="sorts">
+						<dt>服装鞋帽</dt>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a></dd>
+					</dl>
+					<dl class="sorts">
+						<dt>服装鞋帽</dt>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a></dd>
+					</dl>
+					<dl class="sorts">
+						<dt>服装鞋帽</dt>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a></dd>
+					</dl>
+					<dl class="sorts">
+						<dt>服装鞋帽</dt>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a></dd>
+					</dl>
+					<dl class="sorts">
+						<dt>服装鞋帽</dt>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a></dd>
+					</dl>
+					<dl class="sorts">
+						<dt>服装鞋帽</dt>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a></dd>
+					</dl>
+					<dl class="sorts">
+						<dt>服装鞋帽</dt>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">服装</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a>|</dd>
+						<dd><a href="">鞋帽</a></dd>
+					</dl>
+					
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="second_box" id="second_box">
+			<a href="" class="general">综合专区</a>
+			<div class="known_brand">
+				<div class="brands">
+					<p>知名品牌</p>
+					<ul>
+						<li><a href=""><img src="../img/goodList/9d22a4a5-0a2d-4d7d-a8f9-5e5c558fb44b.jpg"/></a></li>
+						<li><a href=""><img src="../img/goodList/1f402a27-23fb-42fa-a930-511658c4b76b.jpg"/></a></li>
+						<li><a href=""><img src="../img/goodList/0605b2d3-9c9a-4875-99d4-3dfd98ad4449.jpg"/></a></li>
+						<li><a href=""><img src="../img/goodList/1073e565-b2ee-458d-9fc4-bcab999c54de.jpg"/></a></li>
+						<li><a href=""><img src="../img/goodList/1f402a27-23fb-42fa-a930-511658c4b76b.jpg"/></a></li>
+						<li><a href=""><img src="../img/goodList/25e90890-5d5f-4c77-8c4e-a9d9e4bdcf50.jpg"/></a></li>
+						<li><a href=""><img src="../img/goodList/900a53b1-972b-4b0f-80a3-fd99270c9eed.jpg"/></a></li>
+						<li><a href=""><img src="../img/goodList/2ac8974e-c80b-40f8-8790-0d348e5fc392.jpg"/></a></li>
+						<li><a href=""><img src="../img/goodList/78147606-1c93-43bc-afd5-9cb5cfe6b3fa.jpg"/></a></li>
+						<li><a href=""><img src="../img/goodList/b47c6487-bf2b-44a3-899b-384500629597.jpg"/></a></li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="all_brands">
+				<div class="brands">
+					<p>按品牌中英文的首字母查找</p>
+					<div class="letter" id ="letter">
+						<b style="background: url(../img/goodList/search_curr.png) no-repeat;">A</b>
+						<b>B</b>
+						<b>C</b>
+						<b>D</b>
+						<b>E</b>
+						<b>F</b>
+						<b>G</b>
+						<b>H</b>
+						<b>I</b>
+						<b>J</b>
+						<b>K</b>
+						<b>L</b>
+						<b>M</b>
+						<b>N</b>
+						<b>O</b>
+						<b>P</b>
+						<b>Q</b>
+						<b>R</b>
+						<b>S</b>
+						<b>T</b>
+						<b>U</b>
+						<b>V</b>
+						<b>W</b>
+						<b>X</b>
+						<b>Y</b>
+						<b>Z</b>
+					</div>
+					<div class="brands_name brands_name1">
+						<a href="">艾丽丝</a>
+						<a href="">爱丽威廉</a>
+						<a href="">敖德迈</a>
+						<a href="">艾心</a>
+						<a href="">雅培</a>
+						<a href="">爱仕达</a>
+						<a href="">奥克斯</a>
+					</div>
+					<div class="brands_name">
+						<a href="">bbbbb</a>
+						<a href="">bbbbb</a>
+						<a href="">bbbbb</a>
+						<a href="">bbbb</a>
+						<a href="">bbbb</a>
+						<a href="">bbbb</a>
+						<a href="">bbbb</a>
+					</div>
+					<div class="brands_name">
+						<a href="">cccc</a>
+						<a href="">ccc</a>
+						<a href="">cccc</a>
+						<a href="">艾cccc</a>
+						<a href="">ccc</a>
+						<a href="">ccc</a>
+						<a href="">ccc</a>
+					</div>
+					<div class="brands_name">
+						<a href="">dddd</a>
+						<a href="">ddd</a>
+						<a href="">dddd</a>
+						<a href="">ddd</a>
+						<a href="">dddd</a>
+						<a href="">爱仕达dd</a>
+						<a href="">奥克斯dddd</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝eeeeee</a>
+						<a href="">爱丽威廉eeee</a>
+						<a href="">敖德迈eee</a>
+						<a href="">艾心eee</a>
+						<a href="">雅培eee</a>
+						<a href="">爱仕达eee</a>
+						<a href="">奥克斯eee</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝fff</a>
+						<a href="">爱丽威廉fff</a>
+						<a href="">敖德迈ff</a>
+						<a href="">艾心fff</a>
+						<a href="">雅培ff</a>
+						<a href="">爱仕达fff</a>
+						<a href="">奥克斯fff</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝gg</a>
+						<a href="">爱丽威廉gg</a>
+						<a href="">敖德迈gg</a>
+						<a href="">艾心gg</a>
+						<a href="">雅培gg</a>
+						<a href="">爱仕达gg</a>
+						<a href="">奥克斯gg</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝hh</a>
+						<a href="">爱丽威廉hh</a>
+						<a href="">敖德迈hh</a>
+						<a href="">艾心hh</a>
+						<a href="">雅培hh</a>
+						<a href="">爱仕达hh</a>
+						<a href="">奥克斯hh</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝ii</a>
+						<a href="">爱丽威廉ii</a>
+						<a href="">敖德迈ii</a>
+						<a href="">艾心ii</a>
+						<a href="">雅培ii</a>
+						<a href="">爱仕达ii</a>
+						<a href="">奥克斯ii</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝jj</a>
+						<a href="">爱丽威廉jj</a>
+						<a href="">敖德迈jj</a>
+						<a href="">艾心jj</a>
+						<a href="">雅培jj</a>
+						<a href="">爱仕达jj</a>
+						<a href="">奥克斯jj</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝kk</a>
+						<a href="">爱丽威廉kk</a>
+						<a href="">敖德迈kk</a>
+						<a href="">艾心kk</a>
+						<a href="">雅培kk</a>
+						<a href="">爱仕达kk</a>
+						<a href="">奥克斯kk</a>
+						<a href="">艾丽丝kk</a>
+						<a href="">爱丽威廉kk</a>
+						<a href="">敖德迈kk</a>
+						<a href="">艾心kk</a>
+						<a href="">雅培kk</a>
+						<a href="">爱仕达kk</a>
+						<a href="">奥克斯kk</a>
+						<a href="">艾丽丝kk</a>
+						<a href="">爱丽威廉kk</a>
+						<a href="">敖德迈kk</a>
+						<a href="">艾心kk</a>
+						<a href="">雅培kk</a>
+						<a href="">爱仕达kk</a>
+						<a href="">奥克斯kk</a>
+						<a href="">艾丽丝kk</a>
+						<a href="">爱丽威廉kk</a>
+						<a href="">敖德迈kk</a>
+						<a href="">艾心kk</a>
+						<a href="">雅培kk</a>
+						<a href="">爱仕达kk</a>
+						<a href="">奥克斯kk</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝ll</a>
+						<a href="">爱丽威廉ll</a>
+						<a href="">敖德迈ll</a>
+						<a href="">艾心ll</a>
+						<a href="">雅培ll</a>
+						<a href="">爱仕达ll</a>
+						<a href="">奥克斯ll</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝mm</a>
+						<a href="">爱丽威廉mm</a>
+						<a href="">敖德迈mm</a>
+						<a href="">艾心mm</a>
+						<a href="">雅培mm</a>
+						<a href="">爱仕达mm</a>
+						<a href="">奥克斯mm</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝nn</a>
+						<a href="">爱丽威廉nn</a>
+						<a href="">敖德迈nn</a>
+						<a href="">艾心nn</a>
+						<a href="">雅培nn</a>
+						<a href="">爱仕达nn</a>
+						<a href="">奥克斯nn</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝oo</a>
+						<a href="">爱丽威廉oo</a>
+						<a href="">敖德迈oo</a>
+						<a href="">艾心oo</a>
+						<a href="">雅培oo</a>
+						<a href="">爱仕达oo</a>
+						<a href="">奥克斯oo</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝pp</a>
+						<a href="">爱丽威廉pp</a>
+						<a href="">敖德迈pp</a>
+						<a href="">艾心pp</a>
+						<a href="">雅培pp</a>
+						<a href="">爱仕达pp</a>
+						<a href="">奥克斯pp</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝qq</a>
+						<a href="">爱丽威廉qq</a>
+						<a href="">敖德迈qq</a>
+						<a href="">艾心qq</a>
+						<a href="">雅培qq</a>
+						<a href="">爱仕达qq</a>
+						<a href="">奥克斯qq</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝rr</a>
+						<a href="">爱丽威廉rr</a>
+						<a href="">敖德迈rr</a>
+						<a href="">艾心rr</a>
+						<a href="">雅培rr</a>
+						<a href="">爱仕达rr</a>
+						<a href="">奥克斯rr</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝ss</a>
+						<a href="">爱丽威廉ss</a>
+						<a href="">敖德迈ss</a>
+						<a href="">艾心ss</a>
+						<a href="">雅培ss</a>
+						<a href="">爱仕达ss</a>
+						<a href="">奥克斯ss</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝tt</a>
+						<a href="">爱丽威廉tt</a>
+						<a href="">敖德迈tt</a>
+						<a href="">艾心tt</a>
+						<a href="">雅培tt</a>
+						<a href="">爱仕达tt</a>
+						<a href="">奥克斯tt</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝uu</a>
+						<a href="">爱丽威廉uu</a>
+						<a href="">敖德迈uu</a>
+						<a href="">艾心uu</a>
+						<a href="">雅培uu</a>
+						<a href="">爱仕达uu</a>
+						<a href="">奥克斯uu</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝vv</a>
+						<a href="">爱丽威廉vv</a>
+						<a href="">敖德迈vv</a>
+						<a href="">艾心vv</a>
+						<a href="">雅培vv</a>
+						<a href="">爱仕达vv</a>
+						<a href="">奥克斯vv</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝ww</a>
+						<a href="">爱丽威廉ww</a>
+						<a href="">敖德迈ww</a>
+						<a href="">艾心ww</a>
+						<a href="">雅培ww</a>
+						<a href="">爱仕达ww</a>
+						<a href="">奥克斯ww</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝xx</a>
+						<a href="">爱丽威廉xx</a>
+						<a href="">敖德迈xx</a>
+						<a href="">艾心xx</a>
+						<a href="">雅培xx</a>
+						<a href="">爱仕达xx</a>
+						<a href="">奥克斯xx</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝yy</a>
+						<a href="">爱丽威廉yy</a>
+						<a href="">敖德迈yy</a>
+						<a href="">艾心yy</a>
+						<a href="">雅培yy</a>
+						<a href="">爱仕达yy</a>
+						<a href="">奥克斯yy</a>
+					</div>
+					<div class="brands_name">
+						<a href="">艾丽丝zz</a>
+						<a href="">爱丽威廉zz</a>
+						<a href="">敖德迈zz</a>
+						<a href="">艾心zz</a>
+						<a href="">雅培zz</a>
+						<a href="">爱仕达zz</a>
+						<a href="">奥克斯zz</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+			<!--结尾-->
+			<div class="footer">
+				<div class="footer_top_bg"></div>
+				<div class="footer_center">
+					<div class="footer_center_left">
+						<p class="tel">订购/咨询热线：<strong>400-883-6900</strong></p>
+						<p class="tel">投诉/建议热线：<strong>400-883-9315</strong></p>
+						<div class="tel_bottom">
+							<p class="time">周一至周六：<em>08:00-21:00</em></p>
+							<p class="time">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周日：<em>09:00-18:00</em></p>
+							<p class="icon"></p>
+						</div>
+					</div>
+					<div class="footer_center_right">
+						<dl class="shopguide">
+							<dt>购物指南</dt>
+							<dd><a href="">购物流程</a></dd>
+							<dd><a href="">会员说明</a></dd>
+							<dd><a href="">积分说明</a></dd>
+							<dd><a href="">优惠券</a></dd>
+							<dd><a href="">第三方服务说明</a></dd>
+							<dd><a href="">团购规则</a></dd>
+						</dl>
+						<dl class="footer_center_right_pay">
+							<dt>支付方式</dt>
+							<dd><a href="">在线支付</a></dd>
+							<dd><a href="">体验点付款</a></dd>
+							<dd><a href="">货到付款</a></dd>
+							<dd><a href="">银行转账</a></dd>
+							<dd><a href="">邮局汇款</a></dd>
+							<dd><a href="">分期付款</a></dd>
+						</dl>
+						<dl>
+							<dt>配送方式</dt>
+							<dd><a href="">配送服务说明</a></dd>
+							<dd><a href="">验货签收与拒收</a></dd>
+							<dd><a href="">包装说明</a></dd>
+							<dd><a href="">24小时送达</a></dd>
+							<dd><a href="">免运费说明</a></dd>
+							
+						</dl>
+						<dl class="customer">
+							<dt>售后服务</dt>
+							<dd><a href="">飞虎自营售后政策</a></dd>
+							<dd><a href="">第三方卖家售后政策</a></dd>
+							<dd><a href="">退换货流程</a></dd>
+							<dd><a href="">退款说明</a></dd>
+							<dd><a href="">发票说明</a></dd>
+							<dd><a href="">客服邮箱</a></dd>
+						</dl>
+						<dl>
+							<dt>特色服务</dt>
+							<dd><a href="">产品知识</a></dd>
+							<dd><a href="">简易故障排除</a></dd>
+							<dd><a href="">软件下载</a></dd>
+							
+						</dl>
+					</div>
+				</div>
+				<div class="fh_footer">
+					<p class="p_top">
+						<a href="" title="常见问题">常见问题</a>|<a href="" title="法律说明">法律说明</a>|<a href="" title="联系我们">联系我们</a>|<a href="" title="新闻中心">新闻中心</a>|<a href="" title="法律说明">意见箱</a>
+					</p>
+					<p class="p_mid">增值电信业务经营许可证：<a href="" target="_blank">粤B2-20130551</a>| 网站备案：粤ICP备13049812|食品流通许可证：SP4403112014007826</p>
+					<p>食品流通许可证：SP1103021110002595</p>
+					<p>Copyright © 2009-2015 深圳富金机网络科技有限公司.All Rights Reserved &nbsp;<span style="color: #FFF">PASSPORT05</span></p>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
+

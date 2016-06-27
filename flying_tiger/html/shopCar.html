@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车--飞虎乐购</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link href="../css/shopCar.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/lib/common.css"/>
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script type="text/javascript" src="../js/lib/jquery.cookie.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script src="../js/shopCar.js"></script>
+	</head>
+	<body id="shoppingCar">
+<!------------------------------------header_nav---------------------------------------------->
+		<div class="topNav">
+				<div class="topNavCenter">
+					<div class="topNavCenter_left">
+						<div class="noUser_left">
+							你好,欢迎来到飞虎乐购!<a href="../html/signOut.html">安全登录</a>还没加入我们？ <a href="../html/signIn.html">立即注册</a>
+						</div>
+						<div class="usernew_left">
+							亲爱的 <a class="theUser" href=""></a>您好！[<a href="" class="tuichu">退出</a>]
+						</div>
+					</div>
+					<ul class="topNavCenter_right">
+						<li class="menu account">
+							<div class="menu_menu">
+								<a href="" class="My_account">我的账户<b></b><span></span></a>
+								<ul class="My_account_ul">
+									<li><a href="" id="">账户首页</a></li>
+									<li><a href="" id="">我的收藏</a></li>
+									<li class="last"><a href="" id="">我的订单</a></li>
+								</ul>
+							</div>
+
+						</li>
+						<li class="menu account accountteshu">
+							<div class="menu_menu">
+								<a href="" class="My_account">网站导航<b></b><span></span></a>
+								<ul class="My_account_ul">
+									<li><a href="" id="">帮助中心</a></li>
+									<li><a href="" id="">联系客服</a></li>
+									<li class="last"><a href="" id="">常见问题</a></li>
+								</ul>
+							</div>
+						</li>
+						
+						
+						<li class="menu account">
+							<a href="" class="My_account  shouchang">加入收藏<b></b><span></span></a>
+						</li>
+						<li class="menu tel">
+							400883690<b></b>
+						</li>
+					</ul>
+				</div>
+			</div>
+<!-------------------------------------head---------------------------------------------->		
+		<div class="head">
+			<a href="homePage.html"><img class="fl" src="img/shoppingcar/slide_logo.png" /></a>
+			<ul class="steps fl">
+				<li>我的购物车</li>
+				<li>确认订单信息</li>
+				<li>成功提交订单</li>
+			</ul>
+		</div>
+<!-------------------------------------title---------------------------------------------->		
+		<div id="my_selected">
+			我挑选的商品
+			<b class = "tips"><span class="sanjiao"></span>飞虎自营：单笔订单慢59元免运费。<a href="">查看详情</a><em id="tips_btn"></em></b>
+		</div>
+<!-----------------------------------------goods in cars---------------------------------------------->			
+		<div class="my_goods">
+			<div class="goodPage">
+				<table>
+					<!--插入的盒子-->
+					<tbody class="appendTr">
+						<tr class="tr1">
+							<td class="td1"><label><input type="checkbox" id="all_btn" value="" />全选</label></td>
+							<td class="td2">飞虎自营商品</td>
+							<td class="td3">商品名称</td>
+							<td class="td4">商品数量</td>
+							<td class="td5">商品单价</td>
+							<td class="td6">飞虎总价</td>
+							<td class="td7">操作</td>
+						</tr>
+						
+					</tbody>
+				</table>
+				<div id="all_money">
+					<p class="fl">不同商家的商品无法合并订单购买，请分别结算。</p>
+					<div class="fr">总金额：<span>￥&nbsp;<i class="zhongJiaGe">0</i></span></div>
+					<div class="clear"></div>
+				</div>				
+			</div>
+			<div class="yes_or">
+				<span id="clear_car" class="fl">清空购物车</span>
+				<a id="send_bill" class="fr" href="">去结算</a>
+				<a id="go_on" class="fr" href="homePage.html">继续购物</a>
+				<div class="clear"></div>
+			</div>
+			
+			
+			
+			
+			<div id = "empty_box">
+				<div class="empty_car">
+					<p class="title">您的购物车里还没有添加任何商品</p>
+					<p>建议您：1.<a href="homePage.html">去逛逛</a>网站里的商品进行购买。</p>
+					<p><strong></strong>2.<a href="signOut.html">登录</a>到您的专属购物车，继续购买上次加入的商品。</p>
+					
+				</div>
+			</div>
+		</div>
+<!-----------------------------------------guess you like---------------------------------------------->	
+		<div class="maybe_like">
+			<p>猜你喜欢</p>
+			<div class="like_box">
+				<ul>
+					<li>
+						<div class="like_img">
+							<a href=""><img src="img/shoppingcar/like5.jpg" /></a>
+						</div>
+						<div class="like_text">
+							<div><a href="">享受健康生活</a></div>
+							<div class="like_price">￥79<a href=""><b></b></a></div>
+						</div>
+					</li>
+					<li>
+						<div class="like_img">
+							<a href=""><img src="img/shoppingcar/like2.jpg" /></a>
+						</div>
+						<div class="like_text">
+							<div><a href="">享受健康生活</a></div>
+							<div class="like_price">￥79<a href=""><b></b></a></div>
+						</div>
+					</li>
+					<li>
+						<div class="like_img">
+							<a href=""><img src="img/shoppingcar/like3.jpg" /></a>
+						</div>
+						<div class="like_text">
+							<div><a href="">享受健康生活</a></div>
+							<div class="like_price">￥79<a href=""><b></b></a></div>
+						</div>
+					</li>
+					<li>
+						<div class="like_img">
+							<a href=""><img src="img/shoppingcar/like4.jpg" /></a>
+						</div>
+						<div class="like_text">
+							<div><a href="">享受健康生活</a></div>
+							<div class="like_price">￥79<a href=""><b></b></a></div>
+						</div>
+					</li>
+					<li>
+						<div class="like_img">
+							<a href=""><img src="img/shoppingcar/like5.jpg" /></a>
+						</div>
+						<div class="like_text">
+							<div><a href="">享受健康生活</a></div>
+							<div class="like_price">￥79<a href=""><b></b></a></div>
+						</div>
+					</li>
+					<li>
+						<div class="like_img">
+							<a href=""><img src="img/shoppingcar/like6.jpg" /></a>
+						</div>
+						<div class="like_text">
+							<div><a href="">享受健康生活</a></div>
+							<div class="like_price">￥79<a href=""><b></b></a></div>
+						</div>
+					</li>
+					<li>
+						<div class="like_img">
+							<a href=""><img src="img/shoppingcar/like7.jpg" /></a>
+						</div>
+						<div class="like_text">
+							<div><a href="">享受健康生活</a></div>
+							<div class="like_price">￥79<a href=""><b></b></a></div>
+						</div>
+					</li>
+					<li>
+						<div class="like_img">
+							<a href=""><img src="img/shoppingcar/like3.jpg" /></a>
+						</div>
+						<div class="like_text">
+							<div><a href="">享受健康生活</a></div>
+							<div class="like_price">￥79<a href=""><b></b></a></div>
+						</div>
+					</li>
+					<li>
+						<div class="like_img">
+							<a href=""><img src="img/shoppingcar/like2.jpg" /></a>
+						</div>
+						<div class="like_text">
+							<div><a href="">享受健康生活</a></div>
+							<div class="like_price">￥79<a href=""><b></b></a></div>
+						</div>
+					</li>
+					<li>
+						<div class="like_img">
+							<a href=""><img src="img/shoppingcar/like4.jpg" /></a>
+						</div>
+						<div class="like_text">
+							<div><a href="">享受健康生活</a></div>
+							<div class="like_price">￥79<a href=""><b></b></a></div>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+<!-----------------------------------Copyright------------------------------------------------>
+		<div class= "copy_right">
+			<ul>
+				<li><a href="">常见问题</a><span>|</span></li>
+				<li><a href="">法律说明</a><span>|</span></li>
+				<li><a href="">联系客服</a><span>|</span></li>
+				<li><a href="">新闻中心</a><span>|</span></li>
+				<li><a href="">意见箱</a></li>
+				<div class="clear"></div>
+			</ul>
+			<p>增值电信业务经营许可证：<a class="hover" href="">粤B2-20130551</a> | 网站备案：<a  class="hover" href="">粤ICP备13049812</a> | 食品流通许可证：SP4403112014007826</p>
+			<p>食品流通许可证：SP1103021110002595</p>
+			<p>Copyright © 2009-2016 深圳富金机网络科技有限公司.All Rights Reserved</p>
+		</div>		
+	</body>
+</html>

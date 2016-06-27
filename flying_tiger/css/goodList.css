@@ -1,0 +1,36 @@
+/*=========================================chioce================================================*/
+.chioce_box{width: 1192px;padding-left: 8px;margin: 0 auto;height: 35px;border-bottom: 2px solid #c7012c;line-height: 35px;font-size: 13px;text-align: center;margin-top: 12px;}
+.chioce_left{width:102px;height: 35px;background: url(../img/goodList/all_pro_curr.png) no-repeat;color:#fff;cursor: pointer;}
+.chioce_right{width: 104px;height: 35px;background: url(../img/goodList/all_pinpai.png) no-repeat;color:#333;cursor: pointer;}
+
+.first_box{display: block;}
+.main_zoom{width: 1200px;height: 115px;background: #f1f1f1;margin:0 auto;overflow: hidden;margin-top: 22px;}
+.main_zoom div{width: 1188px;height:102px;border: 1px solid #ddd;margin: 0 auto;background: #fff;margin-top: 5px;}
+.main_zoom div p{color: #666;font-weight: bold;margin: 12px 0 15px 20px;font-size: 13px;}
+.main_zoom div a{width: 222px;height: 37px;display: block;background: #c7012c;color:#fff;line-height: 36px;text-align: center;font-size: 14px;margin-left: 15px;}
+	
+.org{width: 1200px;margin: 0 auto;height: auto;margin-top: 30px;margin-bottom: 64px;}
+.sorts_box{width:585px;height: auto;border: 1px #ddd solid;}
+.sorts{width: 585px;height: 74px;margin-left: 15px;font-size: 13px;}
+.sorts dt{margin: 10px 0;color: #c6002c;}
+.sorts dd{float: left;display: inline;margin-right: 10px;}
+.sorts a{margin-right: 10px;color:#666}
+.sorts a:hover{color: #f00;}
+
+
+		
+.second_box{width: 1200px;margin: 0 auto;height: auto;display: none;}
+.general{width: 240px;height:48px;display:block;position: relative;z-index:3;background: url(../img/goodList//cart2.png) no-repeat;margin-top: 7px;color: #fff;line-height: 40px;text-align: center;}
+.known_brand{width: 1200px;background: #f1f1f1;height: auto;position: relative;top: -8px;overflow: hidden}
+.brands{padding-left:15px;width: 1170px;height: auto;border: 1px solid #ddd;margin: 0 auto;margin-top: 16px;margin-bottom: 15px;background: #fff;}
+.brands p{font-size: 13px;font-weight: bold;color: #666;margin: 15px 0;}
+.brands li{float: left;display: inline;padding-bottom: 25px;padding-right: 20px;}
+
+
+.all_brands{width: 1200px;background: #f1f1f1;height: auto;overflow: hidden;margin-top: 30px;margin-bottom: 40px;}
+.letter{width: 1120px;height: auto;padding-left: 35px;}
+.letter b{width: 26px;height: 46px;display: inline-block;margin-right: 12px;background: url(../img/goodList/search.png) no-repeat;color:#fff;text-align: center;line-height: 25px;cursor: pointer;}
+.brands_name{display: none;width: 1150px;height: auto;border: 1px solid #c7012c;border-bottom: 2px solid #c7012c;border-top: 2px solid #c7012c;padding-top:8px;margin-bottom: 22px;}
+.brands_name a{color:#666;font-size: 12px;margin-left: 10px;margin-bottom: 12px;display: inline-block}
+.brands_name a:hover{color: #f00;}
+.brands_name1{display: block;}

@@ -1,0 +1,187 @@
+@charset "utf-8";
+.back_top{ display:none;position:fixed; width:20px; height:70px; overflow:hidden; background:url(../img/gooddate/top.png) no-repeat 0 0; left:50%; margin-left:610px; bottom:80px;}
+.back_top:hover{ background-position:0 -70px;}
+/*中间一个大盒子*/
+.centerAll{width:1210px;margin:0 auto; clear:both; margin-bottom:10px;font-family:"Microsoft Yahei";margin-bottom: 20px;padding-top: 10px;}
+/*第一行*/
+.centerAll .dl_top{ height:30px; overflow:hidden; border-bottom:solid 1px #ddd; margin-bottom:10px; line-height:30px; padding-left:10px;}
+.dl_top dt{float: left;padding-right: 10px;font-size: 12px;}
+.dl_top dd{float:left; padding:0 10px 0 15px; background:url(../img/gooddate/ui_icon.png) no-repeat 0 -250px;}
+.dl_top{color: #999;}
+.dl_top a{color: #000000;}
+.dl_top a:hover{color: #0066FF;text-decoration: underline;}
+
+/*放大镜*/
+.fangDJ{position:relative; z-index:3; padding-top:5px; margin-bottom:20px;width: 1210px;margin: 0 auto;}
+/*左边放大镜*/
+.leftfd{width: 302px;float: left;}
+
+
+/*放大镜下文字*/
+.leftfdFoot{padding:15px 0 0 10px; margin-bottom:10px; overflow:hidden;clear: both;}
+.leftfdFoot .lookMore{line-height:16px; float:left; position:relative;color:#3366CC;}
+.leftfdFoot .lookMore:hover{text-decoration: underline;margin-right: 10px;}
+.leftfdFoot .gezhonglianjie{float: right;overflow: hidden;padding-bottom: 6px;}
+.leftfdFoot .gezhonglianjie span{color: #666;float: left;line-height: 16px;padding-right: 8px;}
+.leftfdFoot .gezhonglianjie .sinareren{float:left; width:16px; height:16px; overflow:hidden; line-height:100px; background:url(../img/gooddate/ui_enjoy.jpg) no-repeat 0 0; margin-right:10px;}
+.leftfdFoot .gezhonglianjie .renren{background-position:0 -16px;}
+.leftfdFoot .gezhonglianjie .qq{background-position:0 -32px;}
+.leftfdFoot .gezhonglianjie .kaixin{background-position:0 -48px;}
+
+
+/*右边盒子*/
+.rightfd{padding-left: 315px;}
+/*第一行*/
+.rightfd .top1{line-height:27px; overflow:hidden; font-family:"Microsoft YaHei",simhei; font-size:16px; color:#333; margin-bottom:8px; background:url(../img/gooddate/vi_dolt.png) repeat-x 0 100%;}
+/*第二行*/
+.top2{padding: 0 15px 10px 12px;overflow: hidden;background:url(../img/gooddate/vi_dolt.png) repeat-x 0 100%;}
+.top2 .top2_l{margin-right: 6px;vertical-align: middle;line-height: 29px;float: left;}
+.top2 .top2_l p span{color:#c7012c; font-size:16px; margin-right:5px;vertical-align:middle;}
+.top2 .top2_l p span b{font-size: 26px;margin-left: 5px;}
+.top2 .top2_l a{color: #0000FF;}
+.top2 .top2_l a:hover{text-decoration: underline;}
+.top2 .top2_r{float: right;}
+.top2 .top2_r span{line-height: 25px;color: #666;}
+.top3{padding: 15px 15px 10px 12px;}
+.top3 a{color:#c7012c;}
+.top1,.top2,.top3,.top4,.top5{padding: 0 15px 10px 12px;}
+/*库存*/
+.top3 .kuchun{height:30px; line-height:23px;margin-top:10px;position:relative; z-index:5;}
+.kuchun .lbl{float:left; line-height:25px;display: block;}
+.lbl{float:left; line-height:25px;display: block;}
+.kuchun .lbc{float:left; position:relative;display: block;}
+.kuchun .lbr{float:left; color:#f00;line-height:25px;margin-left:6px;display: block;}
+.top4 a{color: #c7012c;}/*红色a*/
+
+/*火星点击事件*/
+.lbc .dizhi{position:relative;z-index: 7;width: 66px;height: 25px;border: 1px solid #CCC;line-height: 23px;padding-left: 5px;margin-left: 5px;}
+.lbc .dizhi span{width:11px; height:11px;position: absolute; overflow:hidden; top:6px; right:8px; background:url(../img/gooddate/vi_bg.png) no-repeat -120px 0;}
+.lbc .dizhi:hover{border: 1px solid #000000;background: #fff;/*border-bottom: none ;*/}
+.lbc .dizhi:hover span{background-position:-135px 0;}
+
+.adddizhi{border: 1px solid #000000 !important;background: #fff !important;border-bottom: none !important;}
+.addspan{background-position:-150px 0 !important;}
+
+.lbc .huoxing{z-index: 6; position:absolute;left:5px; top:25px; width:330px;height: 100px;line-height: 100px;text-align: center; border:solid 1px #7B470E; background:#fff; padding:8px 5px;display: none;}
+.lbc .huoxing span{width: 11px;height: 11px;margin:0px 3px;color: #f00;cursor: pointer;}
+
+
+.top5{overflow: hidden;}
+.top5 .star5{float: left;margin-right: 8px; display:block; width:85px; height:16px; overflow:hidden; background:url(../img/gooddate/ui_psorce.png) no-repeat 0 0;}
+.top5 .star5 .star4{ display:block; width:80%; height:16px; overflow:hidden; background:url(../img/gooddate/ui_psorce.png) no-repeat 0 -16px ;}
+.top5 a{float: left;}
+.top5 span{float: left;line-height: 17px;}
+
+
+/*选择菜单*/
+.top6{ padding:15px 15px; line-height:25px; background:#f8f8f8; border:solid 1px #eee; border-radius: 5px; margin-bottom:8px;}
+.choseColor{ line-height:23px; overflow:hidden;padding: 5px 0 5px; margin-bottom:10px;}
+
+.lbl{ float:left; width:70px; overflow:hidden; color:#333;}
+.attributes { float:left; width:540px;}
+.attributes li { float:left; height:21px; overflow-y:hidden; border:solid 1px #ddd; padding:1px 10px; min-width:30px; _width:30px; background:#fff; text-align:center; margin-right:8px; cursor:pointer; }
+.attributes .dis {color: #CACACA;cursor: default;border-color: #E8E8E8;}
+.attributes_long li { min-width:60px; _width:60px; margin-right:15px;}
+
+ /*鼠标点击增加or移除这个属性*/
+.attributes .selected { border: solid 2px #c7012c; padding:0 9px; background:url(../img/gooddate/vi_attribute.png) no-repeat bottom right; color:#c7012c; font-weight:bold; }
+.choseSize{ overflow:hidden; margin-bottom:10px;}
+.buy_it{ overflow:hidden; margin-bottom:10px;}
+.buy_it .ui_quantity { float:left; height:23px; width:auto; overflow:hidden; padding:0; _display:inline;}
+.buy_it .ui_quantity_txt {width: 50px; border: 1px solid #DDDDDD;float:left; height:16px;  text-align:center;}
+
+/*左右两按钮ui_quantity_redu是减,ui_quantity_plus是加*/
+.buy_it .ui_quantity_plus,
+.buy_it .ui_quantity_redu { float:left; position:static; width:20px; height:20px; overflow:hidden; background:url(../img/gooddate/vi_bg.png) no-repeat -120px -20px; margin-left:2px; display:inline;}
+.buy_it .ui_quantity_redu { background-position:-140px -20px; margin:0 2px 0 0;}
+.buy_it .ui_quantit_hint { float:left; color:#f00;line-height:25px;margin-left:6px;display:none;}
+.vi_choose_attr_dis { background:#FFDFDf;}
+
+.top6 .yanshe{padding: 0 0 10px 6px;line-height: 25px;}
+.top6 .yanshe em{color: #C7012C;}
+.top6 .yanshe strong{font-weight: bold;color: #C7012C;}
+/*最后的俩按钮''*/
+.btnbox{overflow: hidden;}
+
+.btnbox .btn{width: 150px;height: 50px;line-height:46px;font-size:16px;color:#fff;display: inline-block;text-align: center;margin-right: 10px;background:url(../img/gooddate/vi_showmain_bg32.png) no-repeat 0 0;float: left;}
+.btnbox .btncar{background:url(../img/gooddate/vi_showmain_bg32.png) no-repeat 0 -100px;}
+
+.btnbox .btn:hover{color:#fff; text-decoration:none; background-position:0 -50px;}
+.btnbox .btncar:hover{color:#fff; text-decoration:none; background-position:0 -150px;}
+
+
+/*加入购物车*/
+.btnbox .jion_shouchang,.btnbox .over_shouchang{position:relative; float:left; height:46px; line-height:46px; padding-left:25px; font-size:14px; font-family:"Microsoft YaHei",simhei; color:#666; margin-left:10px; margin-right:5px; display:inline-block;}
+.btnbox .over_shouchang{display: none;}
+.btnbox .jion_shouchang span{ position:absolute; width:16px; height:16px; overflow:hidden; left:5px; top:16px; background:url(../img/gooddate/vi_bg.png) no-repeat -80px -40px;}
+.btnbox .jion_shouchang span:hover{color: yellow;}
+/*已收藏*/
+.btnbox .over_shouchang span{ position:absolute; width:16px; height:16px; overflow:hidden; left:5px; top:16px; background:url(../img/gooddate/vi_bg.png) no-repeat -100px -40px;}
+
+/*图片详情+选项卡*/
+.centerAjax{/*visibility: hidden;*/width: 1210px;margin: 0px auto;clear: both;background: #00FF00;}
+.centerAjax .centerAL{float:left; width:230px; margin-right:10px;font-family:"Microsoft YaHei"}
+
+/*左边*/
+.centerAL .CAtop{ border:solid 5px #F1F1F1; border-top-width:6px;border-bottom-width:6px; margin-bottom:6px;}
+.centerAL .fenlei{ border-left:solid 1px #ddd; border-right:solid 1px #ddd;}
+.centerAL .fenlei h3{font-size:18px;font-weight:normal; font-family:"Microsoft YaHei",simhei; height:38px; overflow:hidden; line-height:38px; padding:0 0 0 15px;color:#c7012c;}
+.centerAL .fenlei .fl_ul{padding:12px 0 0 8px; overflow:hidden; background:url(../img/gooddate/vi_subbg32.png) no-repeat center 0;margin-bottom: 10px;}
+.centerAL .fenlei .fl_ul li{float:left; width:98px; height:28px; overflow:hidden; margin-right:5px;text-align: center;line-height: 28px;}
+.centerAL .fl_ul li:hover,.centerAjax .fenlei .redwhile{ background:#c7012c /*url(../img/gooddate/ui_icon.png) no-repeat 12px -241px*/; color:#fff; text-decoration:none;}
+.centerAL .xuanxiangka{border-top: 1px solid #c7012c;}
+.centerAL .xuanxiangka .xuan_ul{width:219px; overflow:hidden;padding: 0px;}
+.centerAL .xuanxiangka .xuan_ul li{background:url(../img/gooddate/vi_bg.png) no-repeat 0 0px; color:#ffffloat:left; width:72px; height:22px; line-height:22px; overflow:hidden; margin-right:1px; border-bottom-right-radius:4px; border-bottom-left-radius:4px;text-align:center;}
+.centerAL .xuanxiangka .xuan_ul li:hover{background-position:0 -22px ;}
+
+
+.XXallgood{overflow: hidden;}
+.XXallgood ul{display:none; padding:0 8px; overflow:hidden;} 
+.XXallgood ul li{position: relative;width: 100%;min-height:43px;overflow: hidden;padding-top: 10px;border-bottom: 1px dashed #ccc;}   
+.XXallgood ul li dl{display: none;height: 85px;}
+.XXallgood ul li dl dt{width: 75px;height: 75px;display: block;float: left;}   
+.XXallgood ul li dl dt a,.XXallgood ul li dl dt a img{width: 75px;height: 75px;display: block;float: left;}    
+ 
+.XXallgood ul li dl dd{float: left;height:22px;width: 120px;margin-left: 5px;}    
+.XXallgood ul li dl dd em,.XXallgood ul li dl dd b{color: #f00;font-weight: bold;}
+
+.XXallgood .wenzhi{position:absolute;left: 15px; height:43px;overflow:hidden; font-size:12px; margin-bottom:0; padding-left:4px;}
+.XXallgood .wenzhi a{color: #333;}
+
+.XXallgood .num1{z-index:99;display:block;position: absolute;width:15px;height:15px;line-height:15px;text-align:center;left:0;top:10px;overflow:hidden;background:url(../img/gooddate/ui_bg.png) no-repeat 0 -60px;color:#fff; font-size:12px;}  /* 60是红的 45黄30灰*/
+/*JQ增加的两属性*/
+.showUl{display: block !important;}
+.hidediv{display: none !important;}
+
+/*右边*/
+.centerAjax .centerAR{margin-bottom: 20px;float:right; width:960px;font-family:"Microsoft YaHei"}
+.centerAR .toptit{border-bottom:solid 2px #CC0101; height:38px; overflow:hidden;}
+.centerAR .toptit li.chanpin{background-position:0 0; border-left:none; padding-left:11px; color: #fff;background:url(../img/gooddate/vi_tab_curr.png) no-repeat 0 0;}
+.centerAR .toptit li{width:101px;float:left; height:39px; line-height:39px; padding-left:10px; background:url(../img/gooddate/vi_tab.png) no-repeat -10px 0; border-left:solid 1px #ccc; margin-right:-1px; font-size:14px;font-family:"Microsoft YaHei";position:relative; z-index:1; cursor:pointer;}
+.centerAR .toptit li span{display: block;height: 39px;padding-right: 10px;text-align: center;overflow: hidden;}
+.centerAR .toptit li.last{background-position: -99px 0;}
+.centerAR .xiangqing{background:url(../img/gooddate/vi_dolt.png) repeat-x 0 100%; padding-bottom:12px; margin-bottom:20px;padding-top: 10px;}
+.centerAR .xiangqing a{color:#00f; margin-left:8px;}
+.centerAR .xiangqing a:hover{text-decoration: underline;}
+.centerAR .xiangqing div{width: 100%;height: 30px;}
+.centerAR .xiangqing div span{color:#999999;width: 380px;padding-left:50px ;float: left;display: block;line-height: 30px;}
+
+
+.imgajaxadd{padding-bottom: 15px;width: 760px;overflow: hidden;margin: 0 auto;}
+.imgajaxadd .tit{clear: both;width: 78%;margin: 0 auto;text-align: center;font-size: 20px;font-family: Tahoma,宋体;font-weight: bold;color: #666;padding-top: 20px;}
+.AjaximgBox{padding-top: 40px;}
+.AjaximgBox img{max-width: 760px;vertical-align: middle;border: none;width: 750px;display: inline-block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

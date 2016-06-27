@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body {background:url(../images/login/bg.jpg) repeat-x}
+.login_wrap {width:980px;margin:0 auto}
+.conetnt {width:950px;height:465px;margin:0 auto;background:url(../images/login/login_bg.jpg) no-repeat center bottom;position:relative}
+
+.login_box {width:548px;height:433px;border:2px solid #EEDFBB;background:#fff;position:absolute;right: -16px;top:30px; bottom:64px}
+.login_box a { color:#3F70FC; text-decoration:underline;}
+.login_box a:hover { color:#C5002C}
+.login_box  .title {height:31px;line-height:31px;background:url(../images/login/titleBG.png) repeat-x}
+.login_box  .title h2 {font:bold 14px/31px Verdana, Geneva, sans-serif;padding-left:10px}
+.login_box  .boxMain {height:380px;border:1px solid #C7012C;padding:10px}
+.login_box  .boxMain .tips {font-family:Applied Font;font-size:12px;font-weight:normal;font-style:normal;text-decoration:none;color:#FF0000;}
+.login_box  .boxMain .err_tips {height:30px;border:1px solid #F3CEB5;line-height:30px;padding-left:33px;background:#FEF6F2 url(../images/icon/ico_tips_err.gif) no-repeat 10px;margin-bottom:5px;color:#C5002C;display:none}
+.login_box  .boxMain .tips b {color:#999}
+.login_box  .boxMain p {float:right;margin-top:5px}
+.login_box  .boxMain span {float:right;color:#C6002C;margin:5px;}
+.login_box  .boxMain em {color:#C6002C;}
+.login_box  .text_tips {/*height:24px;line-height:24px;*/background:#ECF9DF;padding-left:5px;color:#FF4C31;display:none}
+.login_box  .text_tips_err {height:24px;line-height:24px;background:#FFDFDF;padding-left:5px;color:#C5002C}
+
+.login_box .btn_register { width:140px; height:40px; display:block; overflow:hidden; background:url(../images/global/register.png) no-repeat 0 0; text-indent:-999em; margin-top:3px; position:relative;}
+
+.login_box .btn_register:hover { background-position:0 -40px;}
+
+
+
+
+.login_box .btn_register b { width:10px; height:10px; display:none; overflow:hidden; background:url(../images/global/loading.gif) no-repeat; position:absolute; left:65px; top:15px;}
+.login_box .btn_register_loading,
+.login_box .btn_register_loading:hover {background:url(../images/global/register.png) no-repeat 0 -40px;}
+
+.login_box .btn_register_loading b{ display:block;}
+
+.login_box .txt { width:170px; height:22px; border:solid 1px #cccccc; line-height:22px; padding:0 5px;}
+.login_box .txt_focus {border:1px solid #3F70FC}
+.login_box .txt_error {border:1px solid #C7012C;background:url(../images/mode/form_bg.png) no-repeat 160px 4px}
+.login_box .txt_ok {background:url(../images/mode/form_bg.png) no-repeat 160px -22px}
+.login_box .txt_code { width:100px;}
+.login_box .agreement_box {float:left;line-height:24px}
+.login_box .fh_agreement {float:left;border:1px solid #FF7676;background:#FFDFDF;color:#C5002C;margin-left:10px;padding:0 10px;display:none}
+.login_box #register {float:right;margin-top:-30px;padding-right:30px;}
+
+.footer {border-top:1px solid #ddd}
+/*�����ǿ��*/
+.low{background-image: url("../images/low.png");height: 18px;left: 0;position: relative;top: 0;width: 125px;}
+.normal{background-image: url("../images/normal.png");height: 18px;left: 0;position: relative;top: 0;width: 125px;}
+.high{background-image: url("../images/high.png");height: 18px;left: 0;position: relative;top: 0;width: 125px;}

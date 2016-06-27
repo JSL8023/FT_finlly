@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>账户注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/signIn.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+		<script type="text/javascript" src="../js/lib/jquery.cookie.js"></script>
+		<script type="text/javascript" src="../js/signinorout.js"></script>
+	</head>
+
+	<body>
+		<div id="All">
+			<div class="topNav">
+				<div class="topNavCenter">
+					<div class="topNavCenter_left">
+						你好,欢迎来到飞虎乐购!<a href="../html/signOut.html">安全登录</a>还没加入我们？ <a href="../html/signIn.html">立即注册</a>
+					</div>
+					<ul class="topNavCenter_right">
+						<li class="menu account">
+
+							<div class="menu_menu">
+								<a href="" class="My_account">我的账户<b></b></a>
+								<ul class="My_account_ul">
+									<li><a href="" id="">账户首页</a></li>
+									<li><a href="" id="">我的收藏</a></li>
+									<li class="last"><a href="" id="">我的订单</a></li>
+								</ul>
+							</div>
+
+						</li>
+						<li class="menu help">
+							<a href="">帮助中心<b></b><span></span></a>
+						</li>
+						<li class="menu tiyan">
+							<a href="">网站体验反馈<b></b></a>
+						</li>
+						<li class="menu tel">
+							400 883 6900<b></b>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="mid">
+				<div class="midCenter">
+					<div id="feihu">
+						<a href="../html/homePage.html"><img src="../img/login_logo.jpg" /></a>
+					</div>
+					
+					<!--注册页面-->
+					<div class="login_box">
+						<div class="title">
+							<h2>用户注册</h2>
+						</div>	
+						<div class="boxMain">
+							<div class="tips">
+								<b>您尚未注册：</b>请填写注册信息，带有<em>*</em>号的为必填项。
+							</div>
+							<table width="100%" border="0" cellspacing="2" cellpadding="0">
+								<tr>
+									<td class="tdLeft"><span>*</span>用户名：</td>
+									<td class="td2B"><input type="text" name="user" id="yonghuming" value="" class="tex"/></td>
+									<td class="td3A">4-20位字符，可以由英文、数字组成 </td>
+								</tr>
+								<tr>
+									<td class="tdLeft"><span>*</span>密码：</td>
+									<td class="td2B"><input type="password" name="password" id="" value="" class="tex"/></td>
+									<td class="td3A">6-16位字符，可以由英文、数字组成</td>
+								</tr>
+								<tr>
+									<td class="tdLeft"><span>*</span>确认密码：</td>
+									<td class="td2B"><input type="password" name="password2" id="" value="" class="tex"/></td>
+									<td class="td3A">请再次输入密码</td>
+								</tr>
+								<tr>
+									<td class="tdLeft"><span>*</span>邮箱：</td>
+									<td class="td2B"><input type="text" name="email" id="" value="" class="tex"/></td>
+									<td class="td3A">请输入常用邮箱，用来找回密码等</td>
+								</tr>
+								<tr>
+									<td class="tdLeft">推荐人：</td>
+									<td class="td2B"><input type="text" name="daxiaoxie" id="" value="" class="tex"/></td>
+									<td class="td3A">推荐人用户名，区分大小写</td>
+								</tr>
+								<tr>
+									<td class="tdLeft">活动代码：</td>
+									<td class="td2B"><input type="text" name="dama" id="" value="" class="tex"/></td>
+									<td class="td3A">请输入活动代码</td>
+								</tr>
+								<tr>
+									<td class="tdLeft"><span>*</span>验证码：</td>
+									<td class="td2B"><input type="text" name="yanzhengma" id="" value="" class="tex"/></td>
+									<td class="td3A">请填写验证码</td>
+								</tr>
+								<tr>
+									<td class="tdLeft"></td>
+									<td class="yZMBox">
+										<img name="34878" src="../img/CheckCode.gif" class="img_CheckCode "/>
+										<img name="42101" src="../img/CheckCode42101.gif" class="img_CheckCode"/>
+										<img name="57105" src="../img/CheckCode57105.gif" class="img_CheckCode"/>
+										<img name="65145" src="../img/CheckCode65145.gif" class="img_CheckCode"/>
+										<img name="80950" src="../img/CheckCode80950.gif" class="img_CheckCode"/>
+										<img name="99199" src="../img/CheckCode99199.gif" class="img_CheckCode"/>
+										<img name="35348" src="../img/CheckCode35348.gif" class="img_CheckCode"/>
+										<img name="39437" src="../img/CheckCode39437.gif" class="img_CheckCode"/>
+										<img name="00592" src="../img/CheckCode00592.gif" class="img_CheckCode"/>
+										<a href="##" class="huanImg">换张图</a></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="tdLeft"></td>
+									<td>
+										<input name="checkbox" type="checkbox" id="checkbox" />
+                            			我已阅读并同意 
+                            			<a href="" id="" target="_blank">飞虎乐购用户协议</a>
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="tdLeft"></td>
+									<td >
+										<a href="homePage.html" class="tijiao"></a>
+									</td>
+									<td></td>
+								</tr>
+							</table>
+							
+							
+							
+							
+						</div>
+	
+					</div>
+					
+					<!--登陆页面-->
+					<div id="signIn"  style="display: none;">
+						<div class="title">
+							<h2>用户登录</h2>
+						</div>
+						<div class="signInBoxMain">
+							<div class="tips">
+                				欢迎您登录飞虎乐购，享受您的购物之旅。
+							</div>
+            				<div class="err_tips">
+                				错误信息
+            				</div>
+            				<table border="0" cellspacing="" cellpadding="0">
+            					<tr>
+            						<th>用户名：</th>
+            						<td><input type="text" name="" id="" value="" /></td>
+            					</tr>
+            					<tr>
+            						<th>密&nbsp;&nbsp;&nbsp;&nbsp;码：</th>
+            						<td><input type="text" name="" id="" value="" /></td>
+            					</tr>
+            					<tr>
+            						<th></th>
+            						<td><a href="">忘记密码？</a></td>
+            					</tr>
+            					<tr>
+            						<th>联合登录：</th>
+            						<td><a href="">支付宝快捷登录</a> <a href="">QQ</a> <a href="">新浪</a></td>
+            					</tr>
+            					<tr>
+            						<th></th>
+            						<td><a href="">人人网</a><a href="">开心</a><a href="">网易</a></td>
+            					</tr>
+            					<tr>
+            						<th></th>
+            						<td><a href="">迅雷</a><a href="">139邮箱</a></td>
+            					</tr>
+            					<tr>
+            						<th></th>
+            						<td><a href=""></a><a href="">免费注册</a></td>
+            					</tr>
+            				</table>
+            				
+            				
+            				
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<!--结尾-->
+			<div class="footer">
+				<div class="fh_footer">
+					<p class="p_top">
+						<a href="" title="常见问题">常见问题</a>|<a href="" title="法律说明">法律说明</a>|<a href="" title="联系我们">联系我们</a>
+					</p>
+					<p class="p_mid">增值电信业务经营许可证：<a href="" target="_blank">粤B2-20130551</a>| 网站备案：粤ICP备13049812|食品流通许可证：SP4403112014007826</p>
+					<p>食品流通许可证：SP1103021110002595</p>
+					<p>Copyright © 2009-2015 深圳富金机网络科技有限公司.All Rights Reserved &nbsp;<span style="color: #FFF">PASSPORT05</span></p>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

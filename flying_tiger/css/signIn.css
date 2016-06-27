@@ -1,0 +1,117 @@
+@charset "utf-8";
+body{font: 12px/1.5em arial,simsun,sans-serif;background: url(../img/bg.jpg) repeat-x}	
+	/*最大盒子  居中  兼容用*/
+#All{margin: 0 auto;}
+/*导航  安全登陆  注册栏*/
+.topNav{width: 100% ;min-width: 980px;width:expression(document.body.clientWidth < 600? "600px": "auto" );height:28px;background:#EEEEEE;border-bottom: 1px solid #DDDDDD;position: relative;}
+.topNavCenter{width: 980px;margin: 0 auto;line-height:28px;position: relative;z-index:7;}
+.topNavCenter .topNavCenter_left{padding-left:15px; color:#999;}
+.topNavCenter .topNavCenter_left a{padding:0 5px;color:#0066ff; text-decoration:underline;}
+.topNavCenter .topNavCenter_left a:hover{color:#C7012C;}
+.topNavCenter .topNavCenter_right{ position:absolute; top:2px; right:0;}
+.topNavCenter .topNavCenter_right .menu{float: left;margin-right:8px;position:relative}
+.topNavCenter .topNavCenter_right .menu a{text-decoration: underline;}
+.account .menu_menu{width:70px;}
+.account .menu_menu .My_account{width:70px;height: 28px;display: inline-block;}
+.menu_menu .My_account b{width:10px; height:7px; display:block; overflow:hidden;background: url(../img/sitenav.png) no-repeat 0 0;position:absolute; top:9px; right:4px;}
+.topNavCenter_right .help{ padding-right:8px;}
+.topNavCenter_right .help a:hover, .tiyan a:hover{color:#0066ff;}
+.My_account,.help a,.tiyan a{color: #666;padding-left:5px;}
+.topNavCenter_right .help b{width:1px; height:12px; display:block; overflow:hidden; position:absolute; top:7px; right:0; background:url(../img/sitenav.png) no-repeat -30px 0;}
+.topNavCenter_right .tiyan {padding-left:24px;}
+.topNavCenter_right .tiyan b{width:12px; height:12px; display:block; overflow:hidden; background:url(../img/sitenav.png) no-repeat -40px 0; top:8px; left:10px;position: absolute;}
+.topNavCenter_right .tel{padding-left:22px; font:bold 14px/24px simsun,Arial, sans-serif; margin-right:0;color: #666;}
+.topNavCenter_right .tel b{ width:14px; height:14px; display:block; overflow:hidden; background:url(../img/sitenav.png) no-repeat -60px 0;position:absolute; top:7px; left:10px; }
+/*头部二级菜单*/
+.My_account_ul{display: none;width:73px;background:#fff; color:#666666;_margin-bottom:-2px;}
+.My_account_ul li{ height:24px;line-height:24px;overflow:hidden}
+.My_account_ul li a{ display:block;padding-left:5px;color:#666;text-decoration: none;}
+.My_account_ul li a:hover{background:#ffffcc /*no-repeat -201px -518px*/; text-decoration:underline; color: #c6002a;}
+.My_account_ul li.last a:hover{background:#ffffcc;}
+/*二级菜单第一个动画*/
+.menu_menu:hover .My_account{color: #fff;background: #c6002a;} 
+.menu_menu:hover .My_account b{background-position:-12px 0;}
+.menu_menu:hover .My_account_ul{display: block;border: 1px solid #c6002a;}
+
+
+
+/*中间部分*/
+.mid{width:100%;min-width: 980px;width:expression(document.body.clientWidth < 600? "600px": "auto" );}
+.mid .midCenter{width: 950px;height: 465px;margin: 0 auto;background: url(../img/login_bg.jpg) no-repeat;position: relative;z-index:0;}
+.mid .midCenter .login_box{width:548px;height:433px;border:2px solid #EEDFBB;background:#fff;position:absolute;right: -16px;top:30px; }/*bottom:64px*/
+.login_box  .title,#signIn .title {height:31px;line-height:31px;background:url(../img/titleBG.png) repeat-x}
+.login_box  .title h2 ,#signIn .title h2{font:bold 14px/31px Verdana, Geneva, sans-serif;padding-left:10px;color: #666;}
+/*boxMain验证盒子*/
+.login_box  .boxMain {height:380px;border:1px solid #C7012C;padding:10px}
+/*标题*/
+.login_box  .boxMain .tips {font-family:Applied Font;font-size:12px;font-weight:normal;font-style:normal;text-decoration:none;color:#FF0000;}
+.login_box  .boxMain .tips b {color:#999;font-weight: bold;}
+
+
+.login_box  .boxMain .err_tips {height:30px;border:1px solid #F3CEB5;line-height:30px;padding-left:33px;background:#FEF6F2 url(../images/icon/ico_tips_err.gif) no-repeat 10px;margin-bottom:5px;color:#C5002C;display:none}
+.boxMain .tdLeft{width: 85px;height: 30px;text-align: right;line-height: 30px;color: #666;}
+.boxMain td .tex{width:170px; height:22px; border:solid 1px #ccc; line-height:22px; padding:0 5px;}
+.boxMain td.td2B{width: 185px;}
+
+.boxMain td.td3A{font-size:12px;visibility:hidden;color: #FF0000;text-align: left;line-height: 22px;float: left;height: 22px;width: 80%;margin-top: 4px;padding:0 5px;}
+/*验证码装饰图   改样式时删除*/
+.boxMain .img_CheckCode{width: 63px;height: 20px;display: none;}
+.boxMain .img_the_show{display:inline-block;}
+
+
+/*提交按钮图片*/
+.login_box .tijiao { width:140px; height:40px; display:block; overflow:hidden; background:url(../img/register.png) no-repeat 0 0; text-indent:-999em; margin-top:3px; position:relative;}
+.login_box .tijiao:hover { background-position:0 -40px;}
+
+
+
+
+.login_box  .boxMain p {float:right;margin-top:5px}
+.login_box  .boxMain span {color:#C6002C;margin:5px;}
+.login_box  .boxMain em {color:#C6002C;}
+.login_box a { color:#3F70FC; text-decoration:underline;margin-left:5px;}
+.login_box a:hover { color:#C5002C}
+
+
+
+
+/*安全登录页面*/
+
+#signIn{width:328px;height:350px;border:2px solid #EEDFBB;background:#fff;position:absolute;right:177px;bottom:64px}
+#signIn a{ color:#3F70FC; text-decoration:underline;}
+#signIn a:hover{ color:#C5002C}
+#signIn .signInBoxMain{height:300px;border:1px solid #C7012C;padding:10px;}
+/*欢迎登陆一栏，警告隐藏*/
+#signIn .signInBoxMain  .tips{height:30px;border:1px solid #ccc;line-height:30px;padding-left:10px;background:#FAFAFA;margin-bottom:5px;color: #666;}
+#signIn .signInBoxMain .err_tips{border:1px solid #F3CEB5;line-height:30px;padding-left:33px;background:#FEF6F2 url(../img/ico_tips_err.gif) no-repeat 10px;margin-bottom:5px;color:#C5002C;display:none}
+.signInBoxMain .zhifubao span{vertical-align:middle;display:inline-block;cursor: pointer;background: url(../img/ico_alipay.gif) no-repeat;width: 16px;height: 16px;margin-right:5px;}
+.signInBoxMain .qq span{vertical-align:middle;display:inline-block;cursor: pointer;margin-right:5px;width: 18px;height: 18px;background: url(../img/joint.gif) no-repeat}
+.signInBoxMain .sina span{vertical-align:middle;display:inline-block;cursor: pointer;margin-right:5px;width: 18px;height: 18px;background: url(../img/joint.gif) no-repeat -54px 0;}
+.signInBoxMain .kaixin span{vertical-align:middle;display:inline-block;cursor: pointer;margin-right:5px;width: 18px;height: 18px;background: url(../img/ico_kaixin.gif) no-repeat}
+.signInBoxMain .renren span{vertical-align:middle;display:inline-block;cursor: pointer;margin-right:5px;width: 18px;height: 18px;background: url(../img/ico_renren.gif) no-repeat}
+.signInBoxMain .wangyi span{vertical-align:middle;display:inline-block;cursor: pointer;margin-right:5px;width: 18px;height: 18px;background: url(../img/ico_163.gif) no-repeat}
+.signInBoxMain .xunlei span{vertical-align:middle;display:inline-block;cursor: pointer;margin-right:5px;width: 18px;height: 18px;background: url(../img/ico_xunlei.gif) no-repeat}
+.signInBoxMain .mail139 span{vertical-align:middle;display:inline-block;cursor: pointer;margin-right:5px;width: 24px;height: 18px;background: url(../img/ico_chinaMobile.jpg) no-repeat}
+.signInBoxMain .safeLogin{vertical-align:middle;display:inline-block;width: 140px;height: 40px;background: url(../img/sitenav.png) no-repeat 0 -60px;margin-right: 8px;}
+.signInBoxMain .safeLogin:hover{background-position:0 -100px;}
+
+.signInBoxMain table tr{line-height: 23px;height:30px;color: #666;margin-left: 5px;}
+.signInBoxMain table th{width: 66px;height:32px;text-align: right;font: 12px/1.5em tohoma,arial,simsun,sans-serif;}
+.signInBoxMain table .text{width: 210px;height: 22px;border: solid 1px #ccc;line-height: 22px;padding: 0 5px;color:#666;}
+.signInBoxMain table a{display:inline-block;line-height: 18px;margin-left: 10px;}
+
+
+
+
+
+
+
+
+/*尾部版权*/
+.footer{margin: 0 auto;width: 978px;padding:5px 0;border-top: 1px #ddd solid;clear: both;}
+.footer .p_top a{width: 56px;height: 14px;display: inline-block;; color:#0066ff; padding:0 5px 0 3px}
+.footer .p_top a:hover{text-decoration: underline;}
+.fh_footer{font:12px/1.5 arial,simsun,sans-serif;color: rgb(102, 102, 102);}
+.p_mid a{color: rgb(153, 153, 153);padding: 0 5px 0 3px;}
+.p_mid a:hover{text-decoration: underline;}
+
